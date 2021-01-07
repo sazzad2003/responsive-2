@@ -1,0 +1,219 @@
+body,h1,h2,h3,h4,h5,h6,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+.containers{
+    margin: auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+/* header */
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+    background: #fff;
+    border-bottom: .5px solid #ddd;
+}
+.navbar-brand span img{
+    width: 35px;
+}
+/* .navbar .btn{
+    color: #fff;
+    background: #6278DF;
+} */
+
+/* slider-section */
+.slider-section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 158px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+.slider-title .form-control {
+    padding: 14px 20px;
+}
+.slider-title .btn {
+    padding: 13px 50px;
+}
+
+/* health */
+.health{
+    background: #F7F9FF;
+}
+.health p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* application */
+.feature-item {
+    height: 277px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.feature-item:hover{
+    transition: .2s;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+
+/* portfolio-item */
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* pricing-table */
+.pricing-table{
+    background: #F7F9FF;
+}
+.pricing-item{
+    background: #fff;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 1px 4px 22px rgba(64,87,191,0.1);
+    padding: 37px;
+}
+.pricing-item:hover .pricing-item .btn{
+    background: #0D6EFD;
+    transition: .2s;
+}
+.pricing-item ul li{
+    color: #6C757D;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.pricing-item ul li span{
+    font-size: 20px;
+    margin-right: 15px;
+    color: #6278DF;
+}
+.pricing-item .btn{
+    font-size: 22px;
+    box-shadow: 1px 4px 22px rgba(64,87,191,0.2);
+}
+
+/* feedback */
+.feedback span{
+    font-size: 52px;
+    color: #ddd;
+}
+.feedback .user img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* team */
+.team{
+    background: #F7F9FF;
+}
+.team p{
+    font-size: 18px;
+}
+.team .team-box {
+    padding: 20px;
+        padding-top: 20px;
+    background: #fff;
+    position: relative;
+    box-shadow: 1px 4px 22px rgba(64,87,191,0.1);
+    padding-top: 67px;
+    border-radius: 3px;
+}
+.team .team-box img {
+    width: 92px;
+    border-radius: 50%;
+    position: absolute;
+    left: 27px;
+    top: -37px;
+    box-shadow: 1px 4px 22px rgba(64,87,191,0.2);
+}
+.team .team-box p{
+    font-size: 13px;
+}
+
+/* contact */
+
+.contact .form-box{
+    background: #fff;
+    box-shadow: 1px 4px 22px rgba(64,87,191,0.2);
+    padding: 30px;
+}
+.contact .form-box .btn{
+    font-size: 21px;
+}
+.contact .form-box .btn:hover{
+    border: 1px solid #0D6EFD;
+    background: #fff;
+    color: #0D6EFD;
+    transition: .2s;
+}
+
+/* footer */
+.footer-btn{
+    width: 400px;
+    margin: auto;
+}
+.footer-img{
+    width: 500px;
+    margin: auto;
+    max-width: 100%;
+}
+.footer-img img{
+    width: 100%;
+}
+footer{
+    background: #F7F9FF;
+}

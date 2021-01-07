@@ -1,0 +1,94 @@
+@media (max-width:1300px){
+    .slider-title .form-control {
+        padding: 14px 8px;
+        font-size: 16px;
+    }
+    .slider-title .btn {
+        padding: 15px 50px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1175px){
+    .slider-title .btn {
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width:992px){
+    .number-item p {
+        font-size: 13px;
+    }
+    .slider-title {
+        width: 359px !important;
+    }
+    .health h1 {
+        font-size: 25px;
+    }
+    .health p {
+        font-size: 15px;
+    }
+    .team .team-box {
+        margin-bottom: 27px;
+    }
+    .footer-btn {
+        max-width: 100%;
+    }
+    .footer .row > * {
+        width: 50%;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    .containers {
+        width: 95%;
+    }
+}
+@media (max-width:546px){
+    .slider-bottom .row > * {
+        width: 50%;
+    }
+    .portfolio .row > * {
+        width: 50%;
+    }
+    .slider-title h6 {
+        font-size: 12px;
+        margin-top: 7px;
+        margin-bottom: 16px !important;
+    }
+    .slider-title h2 {
+        font-size: 27px;
+    }
+    .slider-section {
+        padding: 80px 0;
+    }
+    .slider-title {
+        width: 293px !important;
+        max-width: 100%;
+    }
+    .slider-title form {
+        margin-top: 39px !important;
+    }
+    .slider-title form input {
+        margin-bottom: 10px;
+    }
+    .slider-title .btn {
+        padding: 12px 43px;
+        width: 100%;
+    }
+    .pricing-item {
+        margin-top: -78px;
+    }
+    .footer button {
+        font-size: 17px;
+    }
+    .containers {
+        width: 93%;
+    }
+}
+@media (max-width:400px){
+    .footer button {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+}
